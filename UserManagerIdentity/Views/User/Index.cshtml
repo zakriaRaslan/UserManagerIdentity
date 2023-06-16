@@ -3,9 +3,13 @@
     ViewData["Title"] = "Users";
 }
 <h1>Users List</h1>
-<table class="table table-striped">
+<a class="btn btn-primary d-none" id="alert" asp-action="Add">Add New User</a>
+<div class="alert alert-success" role="alert">
+    User Deleted!
+</div>
+<table class=" table table-striped mt-3">
     <thead>
-        <tr class="bg-primary text-white">
+        <tr class="bg-primary text-white ">
             <th>First Name</th>
             <th>Last Name</th>
             <th>User Name</th>
@@ -25,8 +29,10 @@
                 <td>@string.Join(" , ",user.Roles)</td>
                 <td>
                     <a class="btn btn-primary" asp-controller="User" asp-action="ManageRoles" asp-route-userId="@user.Id">ManageRoles</a>
+                    <a class="btn btn-outline-primary" asp-controller="User" asp-action="Edit" asp-route-userId="@user.Id">User Profile</a>
+                    <a class="btn btn-danger js-delete" href="js:;" data-id="@user.Id" >Delete</a>
                 </td>
-            </tr>
+            </tr>   
         }
     </tbody>
-</table>
+

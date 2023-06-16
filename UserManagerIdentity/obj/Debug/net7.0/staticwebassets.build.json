@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WA9ag3HNhrb8PU3Pyr6NwFTCLQOhveoTKdLebi0sRRM=",
+  "Hash": "z7TJSpQfMfHI2/+Pzt0Ej1EJpzAzJDkp17EtyYUhN78=",
   "Source": "UserManagementWithIdentity",
   "BasePath": "_content/UserManagementWithIdentity",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\courses\\0my_projects\\c#\\.NET core\\UserManagementWithIdentity\\UserManagementWithIdentity\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\UserManagementWithIdentity.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\courses\\0my_projects\\c#\\.NET core\\UserManagementWithIdentity\\UserManagementWithIdentity\\wwwroot\\bootbox.js\\bootbox.min.js",
+      "SourceId": "UserManagementWithIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\courses\\0my_projects\\c#\\.NET core\\UserManagementWithIdentity\\UserManagementWithIdentity\\wwwroot\\",
+      "BasePath": "_content/UserManagementWithIdentity",
+      "RelativePath": "bootbox.js/bootbox.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootbox.js\\bootbox.min.js"
     },
     {
       "Identity": "D:\\courses\\0my_projects\\c#\\.NET core\\UserManagementWithIdentity\\UserManagementWithIdentity\\wwwroot\\css\\site.css",

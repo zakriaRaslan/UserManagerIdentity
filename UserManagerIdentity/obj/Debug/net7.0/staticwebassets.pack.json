@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\avatar.svg"
     },
     {
+      "Id": "D:\\courses\\0my_projects\\c#\\.NET core\\UserManagementWithIdentity\\UserManagementWithIdentity\\wwwroot\\bootbox.js\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\bootbox.js\\bootbox.min.js"
+    },
+    {
       "Id": "D:\\courses\\0my_projects\\c#\\.NET core\\UserManagementWithIdentity\\UserManagementWithIdentity\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
